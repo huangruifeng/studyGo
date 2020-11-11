@@ -74,6 +74,7 @@ func constFunc(){
 }
 
 func main() {
+	
 	constFunc()
 	//类型推导只能在函数内
 	var sex = 2
