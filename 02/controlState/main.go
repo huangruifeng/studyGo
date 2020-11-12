@@ -40,7 +40,19 @@ func forStatement() {
 		fmt.Printf("%d %c\n", i, v)
 	}
 
+	//跳出多重循环
+	BREAK1:
+	for i := 0;i<10;i++ {
+		for j:=0;j<10;j++{
+			if j ==2 {
+				break BREAK1
+			}
+			fmt.Printf("%v-%v\n", i, j)
+		}
+	}
+
 }
+
 func main() {
 	ifStatement()
 	forStatement()
