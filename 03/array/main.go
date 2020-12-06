@@ -40,17 +40,17 @@ func sliceTest() {
 }
 
 func multiArray() {
-	a:= [3][2]string {
-		0:{"北京","上海"},
-		2:{"广州","深圳"},
+	a := [3][2]string{
+		0: {"北京", "上海"},
+		2: {"广州", "深圳"},
 	}
 
-	b := [...][2] string {
-		{"北京","上海"},
-		{"广州","深圳"},
+	b := [...][2]string{
+		{"北京", "上海"},
+		{"广州", "深圳"},
 	}
-	for _,v1:= range a{
-		for _,v2:= range v1{
+	for _, v1 := range a {
+		for _, v2 := range v1 {
 			fmt.Println(v2)
 		}
 	}
@@ -59,11 +59,8 @@ func multiArray() {
 }
 
 func main() {
-<<<<<<< Updated upstream
 	multiArray()
-=======
 	sliceTest()
->>>>>>> Stashed changes
 	arrayInit()
 
 	arr := [...]int{1, 2, 3, 45, 6, 789, 10}
