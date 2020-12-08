@@ -17,6 +17,9 @@
 ###  13 interface 2020/12/7
 ###  14 interface{} 2020/12/7
 ###  15 extension struct(证明go不支持继承) 2020/12/7
+
+### 16 error 处理 2020/12/8
+### 17 panic 处理 2020/12/8
 ### practice 每天的训练题
 
 ### runner 使用通道监视任务的执行时间
