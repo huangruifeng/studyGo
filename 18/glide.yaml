@@ -1,0 +1,4 @@
+package: github.com/huangruifeng/studyGo/18
+import:
+- package: github.com/easierway/concurrent_map
+  version: v1.0.0
