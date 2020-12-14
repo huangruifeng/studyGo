@@ -36,7 +36,7 @@ func sliceTest() {
 	} else {
 		fmt.Println("not equal", nil)
 	}
-	fmt.Println(s2)
+	fmt.Println(s1)
 }
 
 func multiArray() {

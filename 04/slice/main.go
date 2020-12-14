@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sync"
 )
 
 func main() {
@@ -21,6 +20,5 @@ func main() {
 	s2 := make([]int, 2, 3)
 	copy(s2, s1)
 	fmt.Println(s2)
-	sync.Pool
 
 }
